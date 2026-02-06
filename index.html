@@ -142,7 +142,32 @@ th {
 </nav>
 
 <main>
+<!-- ===================== FORM SECTION ===================== -->
+<div id="formSection" class="card">
+  <h2>Student Exam Form</h2>
 
+  <label>Student Name</label>
+  <input id="name">
+
+  <label>Roll Number</label>
+  <input id="roll">
+
+  <label>Department</label>
+  <select id="dept">
+    <option>Computer Science</option>
+    <option>Electronics</option>
+    <option>Mechanical</option>
+    <option>Civil</option>
+  </select>
+
+  <label>Subject</label>
+  <input id="subject">
+
+  <label>Exam Date</label>
+  <input type="date" id="date">
+
+  <button class="submit-btn" onclick="submitForm()">Submit</button>
+</div>
 
 </body>
 </html>
